@@ -8,7 +8,7 @@ import { ProductCard } from "../components_index.js";
 const Slider = ({ slides, intervalTime, className1, className2, cardsToShow, className3, className4, className5, className6 }) => {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const totalSlides = slides.length;
-  console.log('slides recibidos en Slider:', slides)
+  
 
   if (!slides || slides.length === 0) {
     console.error('Slides no está definido o está vacío.');
@@ -21,7 +21,7 @@ const Slider = ({ slides, intervalTime, className1, className2, cardsToShow, cla
     visibleSlides.push(slides[(currentSlideIndex + i) % totalSlides]);
   }
 
-  console.log('visibleSlides', visibleSlides)
+  
 
   useEffect(() => {
     if (intervalTime) {

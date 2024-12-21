@@ -22,7 +22,7 @@ const Main = () => {
         { image: image7, title: 'Image 7' }
       ];
 
-      console.log(slides);
+      
 
 
 
