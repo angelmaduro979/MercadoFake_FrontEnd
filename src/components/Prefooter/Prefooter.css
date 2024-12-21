@@ -1,0 +1,171 @@
+a {
+  color: #3483fa;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 40px 20px;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.info-card {
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.info-card .icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.info-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+
+.additional-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.info-box {
+  color: #666;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px 100px;
+  text-align: center;
+  flex: 1 1 300px;
+  max-width: 800px;
+  background-color: #f9f9f9;
+}
+
+.info-box h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.info-box a {
+  display: block;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer img {
+  height: 50px;
+  width: auto;
+}
+
+.footer span {
+  font-size: 14px;
+  color: #333;
+}
+
+
+@media (max-width: 1200px) {
+  .info-card {
+    flex: 1 1 45%; 
+  }
+
+  .info-box {
+    padding: 20px 50px; 
+    max-width: 600px; 
+  }
+
+  .additional-info {
+    gap: 20px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .info-container {
+    padding: 20px 10px; 
+  }
+
+  .info-section {
+    flex-direction: column; 
+    gap: 30px; 
+  }
+
+  .info-card {
+    flex: 1 1 100%; 
+    max-width: 100%; 
+  }
+
+  .info-box {
+    padding: 15px 20px; 
+    max-width: 100%; 
+  }
+
+  .footer img {
+    height: 40px; 
+  }
+
+  .footer span {
+    font-size: 12px; 
+  }
+}
+
+
+@media (max-width: 320px) {
+  .info-container {
+    padding: 10px; 
+  }
+
+  .info-card {
+    text-align: left; 
+  }
+
+  .info-box {
+    padding: 10px; 
+  }
+
+  .footer span {
+    font-size: 10px; 
+  }
+}

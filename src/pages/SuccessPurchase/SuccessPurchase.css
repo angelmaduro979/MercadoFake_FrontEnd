@@ -1,0 +1,275 @@
+
+.success-container-Mainscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+
+.success-container-screen {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.success-container-screen h1 {
+    font-size: 1.5rem;
+    color: #00a650; 
+    margin-bottom: 10px;
+}
+
+.success-container-screen p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+}
+
+
+.purchase-summary {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #EBEBEB; 
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.purchase-summary h2 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.purchase-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.purchase-item:last-child {
+    border-bottom: none;
+}
+
+.purchase-item p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.purchase-item strong {
+    color: #000;
+}
+
+
+.success-container-screen .btn-return {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #FFE600; 
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.success-container-screen .btn-return:hover {
+    background-color: #FFD400;
+}
+
+
+@media (max-width: 480px) {
+    .success-container-Mainscreen {
+        padding: 10px;
+    }
+
+    .success-container-screen {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .success-container-screen h1 {
+        font-size: 1.25rem;
+    }
+
+    .success-container-screen p {
+        font-size: 0.9rem;
+    }
+
+    .purchase-summary {
+        padding: 10px;
+    }
+
+    .purchase-summary h2 {
+        font-size: 1.1rem;
+    }
+
+    .purchase-item p {
+        font-size: 0.85rem;
+    }
+
+    .btn-return {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .success-container-Mainscreen {
+        padding: 15px;
+    }
+
+    .success-container-screen {
+        padding: 18px;
+        max-width: 80%;
+    }
+
+    .success-container-screen h1 {
+        font-size: 1.4rem;
+    }
+
+    .success-container-screen p {
+        font-size: 0.95rem;
+    }
+
+    .purchase-summary {
+        padding: 12px;
+    }
+
+    .purchase-summary h2 {
+        font-size: 1.15rem;
+    }
+
+    .purchase-item p {
+        font-size: 0.9rem;
+    }
+
+    .btn-return {
+        font-size: 1rem;
+        padding: 9px 18px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .success-container-Mainscreen {
+        padding: 20px;
+    }
+
+    .success-container-screen {
+        padding: 20px;
+        max-width: 70%;
+    }
+
+    .success-container-screen h1 {
+        font-size: 1.5rem;
+    }
+
+    .success-container-screen p {
+        font-size: 1rem;
+    }
+
+    .purchase-summary {
+        padding: 15px;
+    }
+
+    .purchase-summary h2 {
+        font-size: 1.2rem;
+    }
+
+    .purchase-item p {
+        font-size: 0.95rem;
+    }
+
+    .btn-return {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width: 1440px) {
+    .success-container-Mainscreen {
+        padding: 20px;
+    }
+
+    .success-container-screen {
+        padding: 25px;
+        max-width: 60%;
+    }
+
+    .success-container-screen h1 {
+        font-size: 1.7rem;
+    }
+
+    .success-container-screen p {
+        font-size: 1.1rem;
+    }
+
+    .purchase-summary {
+        padding: 18px;
+    }
+
+    .purchase-summary h2 {
+        font-size: 1.3rem;
+    }
+
+    .purchase-item p {
+        font-size: 1rem;
+    }
+
+    .btn-return {
+        font-size: 1.1rem;
+        padding: 12px 24px;
+    }
+}
+
+
+@media (max-width: 2000px) {
+    .success-container-Mainscreen {
+        padding: 25px;
+    }
+
+    .success-container-screen {
+        padding: 30px;
+        max-width: 50%;
+    }
+
+    .success-container-screen h1 {
+        font-size: 1.8rem;
+    }
+
+    .success-container-screen p {
+        font-size: 1.2rem;
+    }
+
+    .purchase-summary {
+        padding: 20px;
+    }
+
+    .purchase-summary h2 {
+        font-size: 1.4rem;
+    }
+
+    .purchase-item p {
+        font-size: 1.1rem;
+    }
+
+    .btn-return {
+        font-size: 1.2rem;
+        padding: 14px 28px;
+    }
+}
+
