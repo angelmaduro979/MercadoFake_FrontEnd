@@ -1,6 +1,6 @@
 import React from 'react'
 import './Main.css'
-import { Slider } from '../components_index'
+import { Slider } from '../components_index.js'
 import image1 from '../../assets/images/MainSlider/image1.webp';
 import image2 from '../../assets/images/MainSlider/image2.webp';
 import image3 from '../../assets/images/MainSlider/image3.webp';
@@ -21,6 +21,11 @@ const Main = () => {
         { image: image6, title: 'Image 6' },
         { image: image7, title: 'Image 7' }
       ];
+
+      console.log(slides);
+
+
+
 
   return (
     <main>
