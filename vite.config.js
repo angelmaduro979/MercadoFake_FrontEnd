@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://tu-backend.com', // Cambia esto por la URL de tu backend
+        target: 'https://mercadofake-backend.onrender.com', 
         changeOrigin: true,
         secure: false, // Cambia a true si tu backend usa HTTPS con un certificado válido
       },
