@@ -75,10 +75,5 @@ Utiliza esta URL para interactuar con el frontend.
 - `npm run build`: Genera una versión optimizada para producción.
 - `npm run preview`: Previsualiza la aplicación optimizada.
 
-## Licencia
-
-Este proyecto está licenciado bajo la licencia MIT. Puedes ver más detalles en el archivo `LICENSE` incluido en este repositorio.
-
----
 
 ¡Gracias por usar el frontend de MercadoFake! Si tienes preguntas o problemas, no dudes en abrir un issue en el repositorio o contactarnos.
