@@ -89,14 +89,19 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .success-container-Mainscreen {
-        padding: 10px;
+        padding: 0;
+
     }
 
-    .success-container-screen {
+     .success-container-Mainscreen .success-container-screen {
         padding: 15px;
-        max-width: 90%;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        box-sizing: border-box;
     }
 
     .success-container-screen h1 {
@@ -128,12 +133,12 @@
 
 @media (max-width: 768px) {
     .success-container-Mainscreen {
-        padding: 15px;
+        padding: 10px;
     }
 
-    .success-container-screen {
+    .success-container-Mainscreen .success-container-screen {
         padding: 18px;
-        max-width: 80%;
+        max-width: 90%;
     }
 
     .success-container-screen h1 {

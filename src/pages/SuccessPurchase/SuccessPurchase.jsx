@@ -8,7 +8,7 @@ const SuccessPurchase = () => {
     const { purchaseError, purchaseLoading, purchaseAmount, purchasedInformation  } = usePurchase();
 
     return (
-        <Div className='success-container-Mainscreen'>
+        <Div className='success-container-Mainscreen' >
             {
                 purchaseLoading ? (
                     <Loader />
